@@ -1,0 +1,43 @@
+# Bot Message From Slack
+
+### This application is used to send messages from a Slack bot based on information received from Google Sheets that control the email, subject, and message that you want to send.
+
+#### How to Use This Bot?
+1. Create a bot in Slack.
+2. Get the bot token.
+3. Go to OAuth and Permissions in your app configurations in Slack and grant the following permissions: `user:read:email` and `chat:write`.
+
+#### Where is the Data Used Throughout the Bot?
+1. The data is stored in a Google Sheets file.
+2. The bot will read the data from the sheet and send the message to you.
+3. You need three columns in your sheet: `email`, `subject`, and `message`.
+4. You also need to create a script using Google Apps Script in your Google Sheet.
+
+#### How to Run the Bot?
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the bot.
+
+--------------------------------------------------------------------------------------------
+
+# Email from Sheets
+
+### This application is used to send emails based on information received from Google Sheets that control the email, subject, and message that you want to send.
+
+#### How to Use This Automation?
+1. Create a Google Sheets file.
+2. Create a script using Google Apps Script in your Google Sheet.
+
+#### How do your Data Look Like?
+1. The data is stored in a Google Sheets file.
+2. You need three columns in your sheet: `email`, `subject`, and `message`.
+
+#### How to Run the Automation?
+1. Clone the repository.
+2. Paste the code from the `code.gs` file into your Google Apps Script.
+3. Run the automation.
+
+--------------------------------------------------------------------------------------------
+
+
+
